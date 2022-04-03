@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar1 {
+  width: 40%;
+  height: 60px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar2 {
+  width: 20%;
+  height: 60px;
+  /* background-color: red; */
+}
+.navbar3 {
+  width: 40%;
+  height: 60px;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar3 a {
+  text-decoration: none;
+  color: black;
+}
+.navbar4 {
+  width: 5%;
+  height: 60px;
+  /* background-color: brown; */
+}
+.navbar4 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+}
+
+.navbar5 {
+  width: 5%;
+  height: 60px;
+  /* background-color: brown; */
+}
+.navbar5 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+}
+.over{
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.over span{
+  color:tomato;
+}
+.main-o {
+  width: 100%;
+  height: 33.3%;
+  background-color: crimson;
+}
+
+.image {
+  width: 100%;
+  height: 450px;
+  background-image: url("./testi-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(135, 129, 129);
+}
+.image h2 {
+  margin-bottom: 70px;
+}
+.image h4 {
+  margin-top: 20px;
+}
+.image h3 {
+  margin-top: 20px;
+}
+.image h3 span {
+  color: tomato;
+}
